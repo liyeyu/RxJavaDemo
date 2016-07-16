@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/tv_rx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:layout_centerHorizontal="true"
+        android:checked="true"
+        android:text="RxBinding"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv_rx"
+        android:id="@+id/cb_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_centerHorizontal="true"
+        android:checked="true"
+        android:text="search"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/cb_text1"
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_centerHorizontal="true"
+        android:checked="true"
+        android:text="retrofit"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_search"
+        android:id="@+id/btn_retrofit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
